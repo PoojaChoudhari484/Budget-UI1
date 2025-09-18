@@ -1,0 +1,13 @@
+schemaVersion: 2.2.0
+metadata:
+  name: blu-bluealgo-platform-ui-ckj4
+projects:
+  - git:
+      remotes:
+        origin: https://github.com/Biz-Org/blu-bluealgo-platform-ui.git
+    name: blu-bluealgo-platform-ui
+components:
+  - name: universal-developer-image
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      memoryLimit: 4Gi 
